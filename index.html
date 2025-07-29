@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta charset="utf-8">
+        <title>Zandrex Camagon</title>
+        <link rel="icon" type="image/png" href="favicon.ico"/>
+        <link rel="stylesheet" href="static/css/index.css">
+        <!-- Fonts and icons -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- HOME -->
+        <header id="home">
+            <button id="day-button" class="theme-button" onclick="enableDarkMode(false)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                    <path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/>
+                </svg>
+            </button>
+            <button id="night-button" class="theme-button" onclick="enableDarkMode(true)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                    <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/>
+                </svg>
+            </button>
+            <h1><span>Hey, I'm</span>Zandrex</h1>
+            <i>
+                /'san&#8226;dr&#949;ks/
+                <button class="audio-button" onclick="pronounceName()">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16px" width="16px" viewBox="0 0 24 24" fill="none">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                    </svg>
+                </button>
+            </i> 
+            <p>
+                I'm a software developer based in Oslo who loves building clean and efficient products 
+                that bring beauty and functionality together.
+            </p>
+            <div class="contact-links">
+                <a class="button" href="mailto:zandrexrc@gmail.com" title="Send me an email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 24 24" fill="none">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                </a>
+                <a class="button" href="https://github.com/zandrexrc" target="_blank" title="Visit my GitHub page">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32px" height="32px" fill="none">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
+                        11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
+                        1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304
+                        3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931
+                        0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0
+                        1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138
+                        3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118
+                        3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479
+                        5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576
+                        4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="button" href="https://linkedin.com/in/zandrex-camagon-081ab8158" target="_blank" title="View my LinkedIn profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762
+                        0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11
+                        19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764
+                        1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5
+                        12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586
+                        7-2.777 7 2.476v6.759z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </header>
+        <main>
+            <!-- 1. BACKGROUND -->
+            <section class="main-section" id="background">
+                <h2>Background</h2>
+                <p>
+                    I'm currently a front-end developer at Rendra working on 
+                    <a class="link" target="_blank" href="https://streambim.com/">StreamBIM</a>, 
+                    a simple app that streamlines collaboration and communication in construction projects. 
+                    I graduated from the <a class="link" href="https://www.uio.no/">University of Oslo</a> 
+                    with a bachelor's degree in computer science.
+                </p>
+                <p>
+                    My interest in programming started in the tenth grade when I first tried setting up a blog. 
+                    I didn't expect that playing around with a website template would lead to a career in software 
+                    engineering, but I'm glad it did. Through the years, I've worked on various projects,
+                    from designing web applications to building mobile apps. I always strive to create user interfaces 
+                    that are not only intuitive and visually appealing, but are also accessible and universally-designed.
+                </p>
+                <p>
+                    When I'm not writing code, I'm either gaming, drawing, reading a book, watching anime or 
+                    doomscrolling on social media. 
+                </p>
+            </section>
+
+            <!-- 2. SKILLS -->
+            <section class="main-section" id="skills">
+                <h2>Skills</h2>
+                <section class="skill-section">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English</li>
+                        <li>Norwegian</li>
+                        <li>Tagalog</li>
+                        <li>Ilokano</li>
+                        <li>Spanish</li>
+                    </ul>
+                </section>
+                <section class="skill-section">
+                    <h3>Coding</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                        <li>Kotlin</li>
+                        <li>Go</li>
+                        <li>SQL</li>
+                    </ul>
+                </section>
+                <section class="skill-section">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Vue</li>
+                        <li>Ember</li>
+                        <li>.NET Core</li>
+                        <li>Node</li>
+                        <li>PostgreSQL</li>
+                        <li>Cordova</li>
+                    </ul>
+                </section>
+                <section class="skill-section">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>Azure</li>
+                        <li>AWS</li>
+                        <li>Postman</li>
+                        <li>Cypress</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </section>
+            </section>
+
+            <!-- 3. EXPERIENCES -->
+            <section class="main-section" id="experiences">
+                <h2>Experiences</h2>
+                <section class="experience-section">
+                    <h3>Rendra</h3>
+                    <h4>Front-end developer</h4>
+                    <em>Feb 2024 - present</em>
+                    <p>
+                        Developing <a class="link" href="https://streambim.com/" target="_blank">StreamBIM</a>, 
+                        a Building Information Modelling (BIM) software for viewing 3D models and documents. 
+                        It provides a platform for architects, engineers, contractors and other stakeholders 
+                        to collaborate throughout a construction project's lifecycle. I'm responsible for 
+                        designing the user interface and adapting the desktop app into native mobile apps for 
+                        iOS and Android.
+                    </p>
+                </section>
+                <section class="experience-section">
+                    <h3>Twoday</h3>
+                    <h4>Fullstack developer</h4>
+                    <em>Sep 2021 - Feb 2024</em>
+                    <p>
+                        Built and maintained web applications for various clients in the finance sector. 
+                        Some of the projects I worked on include a Payroll system and an Enterprise Resource 
+                        Planning (ERP) system. I was involved in both the front-end and back-end 
+                        development in these projects, using technologies such as Vue, .NET Core, and Azure 
+                        cloud services.
+                    </p>
+                </section>
+                <section class="experience-section">
+                    <h3>Freelance</h3>
+                    <h4>Web & graphic designer</h4>
+                    <em>Sep 2017 - Sep 2021</em>
+                    <p>
+                        Tailored websites for small businesses and individuals. Also provided logo 
+                        designs and digital illustrations for branding and marketing purposes.
+                    </p>
+                </section>
+            </section>
+
+            <!-- 4. PROJECTS -->
+            <section class="main-section" id="projects">
+                <h2>Projects</h2>
+                <section class="project-section">
+                    <h3>Cashflow</h3>
+                    <p>
+                        A web and desktop app that helps you monitor your personal finances to optimize your budgeting process.
+                    </p>
+                    <p class="project-links">
+                        <a class="link" href="https://zandrexrc.github.io/cashflow/" target="_blank">Visit site</a>
+                        <a class="link" href="https://github.com/zandrexrc/cashflow" target="_blank">View code</a>
+                    </p>
+                </section>
+                <section class="project-section">
+                    <h3>Asteroid Tracker</h3>
+                    <p>
+                        A web app that shows a list of asteroids that are orbiting a <i>liiiittle</i> too close to Earth.
+                        Data is provided by <a class="link" href="https://api.nasa.gov/" target="_blank">NASA's Asteroids NeoWS API</a>.
+                    </p>
+                    <p class="project-links">
+                        <a class="link" href="https://ussrr-zandrexrc.netlify.app/" target="_blank">Visit site</a>
+                        <a class="link" href="https://github.com/zandrexrc/undeniably-sizable-space-rocks-radar" target="_blank">View code</a>
+                    </p>
+                </section>
+                <section class="project-section">
+                    <h3>Kanban board</h3>
+                    <p>A web and desktop app for managing and organizing your tasks.</p>
+                    <p class="project-links">
+                        <a class="link" href="https://kanbanboard-zandrexrc.netlify.app/" target="_blank">Visit site</a>
+                        <a class="link" href="https://github.com/zandrexrc/kanbanboard" target="_blank">View code</a>
+                    </p>
+                </section>
+                <section class="project-section">
+                    <h3>Cloud</h3>
+                    <p>A mockup landing page.</p>
+                    <p class="project-links">
+                        <a class="link" href="https://zandrexrc.github.io/cloud/" target="_blank">Visit site</a>
+                        <a class="link" href="https://github.com/zandrexrc/cloud" target="_blank">View code</a>
+                    </p>
+                </section>
+                <section class="project-section">
+                    <h3>Pastebin</h3>
+                    <p>
+                        A simple web app for storing plain text. Based on the eponymous website 
+                        <a class="link" href="https://pastebin.com/" target="_blank">pastebin.com</a>.
+                    </p>
+                    <p class="project-links">
+                        <a class="link" href="https://pastebin-zandrexrc.azureedge.net/" target="_blank">Visit site</a>
+                        <a class="link" href="https://github.com/zandrexrc/pastebin" target="_blank">View code</a>
+                    </p>
+                </section>
+            </section>
+
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            ©2025 Zandrex Ramos Camagon <br />
+        </footer>
+
+        <script src="static/js/index.js"></script>
+
+    </body>
+</html>
