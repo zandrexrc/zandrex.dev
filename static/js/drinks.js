@@ -108,7 +108,7 @@ const categories = [
         color: '#9B2226',
         contents: [
             {
-                label: 'Guiness',
+                label: 'Guinness',
                 flavor: 'Classic rock',
                 link: 'https://open.spotify.com/playlist/3iG6zawCViajQKdiOPIKTS?si=5953ffba9a954fea'
             },
